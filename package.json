@@ -1,0 +1,21 @@
+{
+  "name": "FGOLNodeLZF",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yaro"
+  },
+  "engines": [
+    "node"
+  ],
+  "dependencies": {
+    "nan": "2.9.2"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./index",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true
+}
